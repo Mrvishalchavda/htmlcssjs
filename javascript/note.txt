@@ -1,0 +1,29 @@
+tut 48 var
+dynamic variable typing
+    int 
+    string
+    float
+
+operator
+    unary - single operand c= -c
+    binary - with 2 operand c= a+b
+*******************************tut 49*******************************************
+string operation
+
+*******************************tut 50*******************************************
+string funtions
+
+*******************************tut 51*******************************************
+let and var diffrent
+must use let for diclare variable
+use block for work
+if else
+switch case 
+
+*******************************tut 52*******************************************
+array
+object
+array is one type of array
+
+*******************************tut 53*******************************************
+funtions
