@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>javatut</title>
+    <style>
+        #pera{
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
+    <div id = "main" class="container">
         <div class="row">
             <p>this is pera 1
                 <div>
@@ -20,6 +25,10 @@
                         <li>Item-6</li>
                         <li>Item-7</li>
                     </ul>
+                    <p id = "pera">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloremque culpa quasi molestias itaque rerum iure illum nobis corporis totam quos nisi possimus recusandae, eligendi, sunt, cum eos odit dolores veritatis illo expedita nesciunt maiores at omnis. Numquam, quaerat dicta hic rem dolores sequi quod quis delectus ducimus non. Fuga error atque minus sapiente quasi autem delectus vero ab a debitis, exercitationem praesentium, rem hic, iure neque corporis aut blanditiis? Facilis nostrum dignissimos, temporibus laboriosam nisi, ullam distinctio animi repellendus perspiciatis placeat totam repudiandae, iste error facere molestias tempore eius cupiditate. Quas aut, tempora ratione cumque harum molestias cupiditate error commodi, provident porro ut aliquid maiores modi placeat. Tempora esse, veritatis explicabo adipisci sapiente quam eaque officiis doloremque, totam deserunt nemo at. Illum sequi dolores aliquam. Tempora necessitatibus, nisi delectus odit vel est iure quidem nihil blanditiis tempore a similique vero maxime laboriosam nostrum placeat adipisci neque expedita sint dignissimos architecto. Vero recusandae neque iste ipsa est ad excepturi blanditiis at harum perferendis eaque ea non, sequi quibusdam id totam. Ipsum illo tempore magnam numquam ex. Eius harum adipisci ducimus asperiores tempore, fugiat sunt numquam vitae dolores odit ab facilis est suscipit veritatis neque nisi ut laborum ipsum nihil ratione? Similique accusantium nihil eos eligendi incidunt voluptatem sequi animi repellendus soluta molestiae error, quam facere mollitia temporibus a. Voluptatum eum porro corrupti ab molestias tempora voluptatem consequuntur inventore, iure ipsum, recusandae iste rem. Explicabo unde necessitatibus aliquam accusantium atque, impedit corrupti reiciendis sint laboriosam temporibus?
+
+                    </p>
+                    <div><button onclick="funtionname()">showhide</button></div>
                 </div>
 
             </p>
@@ -89,7 +98,7 @@
 
         for(ele of friends){
             console.log(ele)
-        } */
+        } 
 
         let i = 0;
         while(i<3){
@@ -100,11 +109,49 @@
         do{
             console.log(`${i} is less then 5`);
             i++;
-        }while(i<5);
+        }while(i<5);  */
+        
+//********************************************** tut 56 ******************
+/*
+        let contain = document.getElementById("main");
+        let cla   = document.getElementsByClassName("row")
+        console.log(contain)
+        console.log(cla);
+*/
+//********************************************* tut 57 **********************
 
+        // event listener
+        /*function funtionname()
+        {
+            let x = document.getElementById("pera")
+            console.log(x)
+            let s = x.style.display
+            console.log(x.style.display)
+            
+            if (x.style.display != "none"){
+                x.style.display = "none"
+                console.log("none")
+            }
+            else{
+                x.style.display = "block"
+                console.log("block")
+            }
 
-    
+        }
+        let z = document.getElementById("pera")
+        z.addEventListener("mouseover",function run(){
+            console.log("in pera")
+        })
+        z.addEventListener("mouseout",function run(){
+            console.log("out from pera")
+        })*/
+//********************************************* tut 58 **********************
+        //setinterval,timeout
 
+        function greet(name,bytext){
+            console.log("good morning"+ " "+name+ " " + bytext)
+        }
+        setInterval(greet,2000,"visha","work hard")
     </script>
     
 </body>
